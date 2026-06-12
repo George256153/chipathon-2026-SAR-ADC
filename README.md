@@ -23,6 +23,7 @@ Links
 Github repo(s): https://github.com/zzoeyzhang00-svg/SAR-ADC-Chipathon-2026
 
 Proposal Slide Link: https: https://github.com/George256153/chipathon-2026-SAR-ADC/blob/main/2026_ChipathonProposals_SAR_ADC.pdf
+
 Proposal Presentation Link：https://drive.google.com/file/d/1w1YzpjfutCapkKqN5DQNjlLzdmJp462V/view?usp=drive_link
 
 Pin Requirement Link: TBD  
