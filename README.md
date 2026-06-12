@@ -1,32 +1,110 @@
 ## Track: A <br>Team: SAR ADC <br>Project: Low-Power ECG Acquisition System with Fully Differential SAR ADC
 
-Team members
+## Team Members
 
-| Discord | Github | Affiliation (experience) | Role |
-|---|---|---|---|
-| e24096653_lujunqi | George256153 | Columbia University (graduate) | Analog front-end / SAR ADC design |
-| zoey00641 | zzoeyzhang00-svg | Columbia University (graduate) | SAR logic / digital design |
-| TBD | TBD | Columbia University (graduate) | System integration / verification |
+- Chun-Chi Lu
+- Ziyu Zhang
+- Yi-Hsiang Wei
 
-Overview:  
-This project aims to develop a low-power integrated ECG acquisition system for wearable and portable cardiac monitoring applications. The proposed system includes an ECG analog front-end followed by a fully differential SAR ADC for digitizing conditioned ECG signals.
+**Affiliation:** Columbia University, Department of Electrical Engineering
 
-Architecture:  
-ECG AFE (INA + BPF + PGA + Buffer) → Fully Differential 10-bit SAR ADC with bottom-plate sampling and synchronous SAR logic.
+---
 
-Size:  
-Estimated core area: 0.5–1.0 mm²  
-Proposed core size: 1 mm × 1 mm  
-Recommended full-chip size with pads: 2 mm × 2 mm
+## Project Overview
 
-Links  
-Github repo(s): https://github.com/George256153/chipathon-2026-SAR-ADC
+This project aims to develop a low-power integrated ECG acquisition system for wearable and portable cardiac monitoring applications.
 
-Proposal Slide Link: https: https://github.com/George256153/chipathon-2026-SAR-ADC/blob/main/2026_ChipathonProposals_SAR_ADC.pdf
+The proposed system combines an analog front-end (AFE) for ECG signal conditioning with a fully differential Successive Approximation Register (SAR) Analog-to-Digital Converter for digitization.
 
-Proposal Presentation Link：https://drive.google.com/file/d/1w1YzpjfutCapkKqN5DQNjlLzdmJp462V/view?usp=drive_link
+### System Architecture
 
-Pin Requirement Link: TBD  
-Progress tracker: TBD  
-Schematic Review Slide Link: TBD  
-Layout Review Slide Link: TBD
+```text
+ECG Electrodes
+      │
+      ▼
+Instrumentation Amplifier (INA)
+      │
+      ▼
+Band-Pass Filter (BPF)
+      │
+      ▼
+Programmable Gain Amplifier (PGA)
+      │
+      ▼
+Output Buffer
+      │
+      ▼
+Fully Differential 10-bit SAR ADC
+      │
+      ▼
+Digital Output
+```
+
+The SAR ADC employs bottom-plate sampling and synchronous SAR logic to achieve low power consumption while maintaining sufficient resolution for ECG signal acquisition.
+
+---
+
+## Design Targets
+
+| Parameter | Target |
+|------------|------------|
+| ADC Architecture | Fully Differential SAR ADC |
+| Resolution | 10-bit |
+| Sampling Method | Bottom-Plate Sampling |
+| SAR Logic | Synchronous |
+| Application | Wearable ECG Monitoring |
+| Estimated Core Area | 0.5–1.0 mm² |
+| Proposed Core Size | 1 mm × 1 mm |
+| Full Chip Size (with Pads) | 2 mm × 2 mm |
+
+---
+
+## Motivation
+
+Continuous ECG monitoring is becoming increasingly important in wearable healthcare devices. Such systems require:
+
+- Low power consumption
+- Compact silicon area
+- Reliable signal acquisition
+- High integration level
+
+SAR ADCs provide an attractive trade-off between power, area, and performance, making them suitable for battery-powered biomedical applications.
+
+---
+
+## Repository Structure
+
+```text
+docs/
+├── Proposal.pdf
+├── Schematic_Review.pdf
+└── Layout_Review.pdf
+
+analog/
+├── INA/
+├── BPF/
+├── PGA/
+├── Buffer/
+└── SAR_ADC/
+
+digital/
+└── SAR_Logic/
+
+simulations/
+
+reports/
+```
+
+---
+
+## References
+
+1. B. Razavi, *Design of Analog CMOS Integrated Circuits*
+2. R. Jacob Baker, *CMOS Circuit Design, Layout, and Simulation*
+3. Tony Chan Carusone, *Analog Integrated Circuit Design*
+
+---
+
+## Chipathon 2026
+
+This repository is maintained as part of the IEEE SSCS Chipathon 2026 project.
