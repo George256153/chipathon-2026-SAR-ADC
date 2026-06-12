@@ -22,7 +22,7 @@ Recommended full-chip size with pads: 2 mm × 2 mm
 Links  
 Github repo(s): https://github.com/zzoeyzhang00-svg/SAR-ADC-Chipathon-2026
 
-Proposal Slide Link: 2026_ChipathonProposals_SAR_ADC.pdf 
+Proposal Slide Link: https://github.com/zzoeyzhang00-svg/SAR-ADC-Chipathon-2026/blob/proposal/2026_ChipathonProposals_SAR_ADC.pdf
 
 Proposal Presentation Link：https://drive.google.com/file/d/1w1YzpjfutCapkKqN5DQNjlLzdmJp462V/view?usp=drive_link
 
