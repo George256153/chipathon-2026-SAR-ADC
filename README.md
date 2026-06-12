@@ -4,8 +4,8 @@ Team members
 
 | Discord | Github | Affiliation (experience) | Role |
 |---|---|---|---|
-| TBD | TBD | Columbia University (graduate) | Analog front-end / SAR ADC design |
-| TBD | TBD | Columbia University (graduate) | SAR logic / digital design |
+| e24096653_lujunqi | George256153 | Columbia University (graduate) | Analog front-end / SAR ADC design |
+| zoey00641 | zzoeyzhang00-svg | Columbia University (graduate) | SAR logic / digital design |
 | TBD | TBD | Columbia University (graduate) | System integration / verification |
 
 Overview:  
@@ -19,11 +19,10 @@ Estimated core area: 0.5–1.0 mm²
 Proposed core size: 1 mm × 1 mm  
 Recommended full-chip size with pads: 2 mm × 2 mm
 
-Required pins: TBD
-
 Links  
-Github repo(s): TBD  
-Proposal Slide Link: TBD  
+Github repo(s): https://github.com/zzoeyzhang00-svg/SAR-ADC-Chipathon-2026
+Proposal Slide Link: 2026_ChipathonProposals_SAR_ADC.pdf 
+Proposal Presentation Link：https://drive.google.com/file/d/1w1YzpjfutCapkKqN5DQNjlLzdmJp462V/view?usp=drive_link
 Pin Requirement Link: TBD  
 Progress tracker: TBD  
 Schematic Review Slide Link: TBD  
