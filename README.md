@@ -20,7 +20,7 @@ Proposed core size: 1 mm × 1 mm
 Recommended full-chip size with pads: 2 mm × 2 mm
 
 Links  
-Github repo(s): https://github.com/zzoeyzhang00-svg/SAR-ADC-Chipathon-2026
+Github repo(s): https://github.com/George256153/chipathon-2026-SAR-ADC
 
 Proposal Slide Link: https: https://github.com/George256153/chipathon-2026-SAR-ADC/blob/main/2026_ChipathonProposals_SAR_ADC.pdf
 
